@@ -1,6 +1,7 @@
 #pragma once
 #include"tokenizer.h"
 #include<vector>
+#include<stack>
 
 class RPNconverter {
     public:

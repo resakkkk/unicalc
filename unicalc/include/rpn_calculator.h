@@ -1,7 +1,9 @@
 #pragma once
 #include"tokenizer.h"
 #include<vector>
+#include<stack>
 
 class RPNcalculator {
-    static double calculate(const std::vector<token>& rpnTokens);
+    public:
+        static double calculate(const std::vector<token>& rpntokens);
 };
